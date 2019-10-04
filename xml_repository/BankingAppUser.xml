@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page-elements>
+
+<!-- Add User button -->
+  <page-element no="1">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector>.btn.btn-info.btn-xs</cssSelector>
+    <xPath></xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+   
+  <!-- FirstName txt box  -->
+  <page-element no="2">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='firstName']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <!-- Last Name text box -->
+  <page-element no="3">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='lastName']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  
+  <!--  Middle Name text box -->
+  <page-element no="4">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='middleName']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <!-- user Name text box -->
+  <page-element no="5">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='username']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  
+  <!-- password text box -->
+  <page-element no="6">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='password']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  
+  <!-- Email -->
+  <page-element no="7">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='email']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <page-element no="8">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='phone']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <page-element no="9">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='city']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <page-element no="10">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='state']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <page-element no="11">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='street']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <page-element no="12">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='buildingName']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <page-element no="13">
+    <type>button</type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>/html/body/app-root/div/app-user/div[2]/div/div/form/div[3]/button</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  
+  
+  
+  <page-element no="14">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath></xPath>
+    <linkText>Close</linkText>
+    <data></data>
+  </page-element>
+  
+  
+  
+   <page-element no="15">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath></xPath>
+    <linkText>User</linkText>
+    <data></data>
+  </page-element>
+  
+  <!--  Modify app uyser elements  -->
+  
+  <!-- Table identifier -->
+   <page-element no="16">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>/html/body/app-root/div/app-user/div[1]/div/div/div/table</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <!--  row identifier -->
+  <page-element no="17">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector>tr</cssSelector>
+    <xPath></xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  
+  
+  <!--  element col identifier -->
+  <page-element no="18">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector>td</cssSelector>
+    <xPath></xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <!--  Modify User icon -->
+  <page-element no="19">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@class='btn btn-primary btn-xs']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <!-- Delete User Icon -->
+  <page-element no="20">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@class='btn btn-success btn-xs']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  
+  <!-- FirstName txt box  -->
+  <page-element no="21">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='_firstName']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <!-- Last Name text box -->
+  <page-element no="22">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='_lastName']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  
+  <!--  Middle Name text box -->
+  <page-element no="23">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='_middleName']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <!-- user Name text box -->
+  <page-element no="24">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='_username']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  
+  <!-- password text box -->
+  <page-element no="25">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='_password']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  
+  <!-- Email -->
+  <page-element no="26">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='_email']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <page-element no="27">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='_phone']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <page-element no="28">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='_city']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <page-element no="29">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='_state']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <page-element no="30">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='_street']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <page-element no="31">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@name='_buildingName']</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <page-element no="32">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>/html/body/app-root/div/app-user/div[3]/div/div/form/div[3]/button</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+    
+  <page-element no="33">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath></xPath>
+    <linkText>Close</linkText>
+    <data></data>
+  </page-element>
+  
+  <!-- - Delete element -->
+  
+  <!-- Delete dialog Modal box -->
+  <page-element no="34">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>.//*[@id='deleeteConfirm']/div/div</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  <!--  close x mark in modal dialog -->
+  <page-element no="35">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector>.close</cssSelector>
+    <xPath></xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  
+  <!-- Confiorm delete -->
+  <page-element no="36">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector></cssSelector>
+    <xPath>/html/body/app-root/div/app-user/div[4]/div/div/div[3]/button</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  
+  
+  
+  <!-- Close delete dialog modal close -->
+  <page-element no="37">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector>.btn.btn-default.btn-xs</cssSelector>
+    <xPath></xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  
+  <!--  -->
+  <page-element no="38">
+    <type></type>
+    <id></id>
+    <name></name>
+    <className></className>
+    <cssSelector>.btn.btn-default.btn-xs</cssSelector>
+    <xPath>/html/body/app-root/nav/div/ul[1]/li[1]/a</xPath>
+    <linkText></linkText>
+    <data></data>
+  </page-element>
+  
+  
+
+  
+  
+
+  
+  
+</page-elements>
