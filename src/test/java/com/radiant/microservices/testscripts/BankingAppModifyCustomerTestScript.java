@@ -98,7 +98,7 @@ public class BankingAppModifyCustomerTestScript {
 							List<String> dataSet = webElementDataDetails.getDataSet();
 							if (dataSet != null && dataSet.size() > 0) {
 									Actions act = new Actions(driver);
-									Thread.sleep(10000);
+									Thread.sleep(20000);
 
 									customMessage = "select all records from look-up";
 									WebElementDetails lookupTableObj = bankingAppModifyCustomerWebElementList.get(17);
@@ -115,7 +115,7 @@ public class BankingAppModifyCustomerTestScript {
 										  if ((i % 10) == 0)
 										  {
 											    js.executeScript("window.scrollBy(0,1000)");
-											    Thread.sleep(1000);
+											    Thread.sleep(3000);
 											    rows.get(i).click();
 										  }		
 										  List<WebElement> cols = rows.get(i).findElements(By.cssSelector("td"));
@@ -234,7 +234,7 @@ public class BankingAppModifyCustomerTestScript {
 									 Streetobj = bankingAppModifyCustomerWebElementList.get(35);
 									bankingAppModifyCustomer.streetTxtbox(Streetobj).click();
 									log.info(" Enter Street ");
-									Thread.sleep(10000);
+									Thread.sleep(20000);
 									}
 						   }	
 						}
