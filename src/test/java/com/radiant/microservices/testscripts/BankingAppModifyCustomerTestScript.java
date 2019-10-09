@@ -98,7 +98,7 @@ public class BankingAppModifyCustomerTestScript {
 							List<String> dataSet = webElementDataDetails.getDataSet();
 							if (dataSet != null && dataSet.size() > 0) {
 									Actions act = new Actions(driver);
-									Thread.sleep(20000);
+									Thread.sleep(15000);
 
 									customMessage = "select all records from look-up";
 									WebElementDetails lookupTableObj = bankingAppModifyCustomerWebElementList.get(17);
@@ -109,6 +109,7 @@ public class BankingAppModifyCustomerTestScript {
 									int selctedRecordNo = 0;
 									List<WebElement> rows = lookupTable
 											.findElements(By.cssSelector(rowsObj.getCssSelector()));
+								Thread.sleep(6000);
 									String DomainId = null;
 									JavascriptExecutor js = (JavascriptExecutor) driver;
 									for (int i = 1; i <= rows.size(); i++) {
