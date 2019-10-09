@@ -95,6 +95,7 @@ public class BankingAppAddCustomerTestScript {
 			driver = JWebDriver.getInstance().getWebDriver();
 			ResourceBundle resourceBundle = ResourceBundle.getBundle("ApplicationResources");
 			driver.get(resourceBundle.getString("application.url"));
+			Thread.sleep(6000);
 			customMessage = "Click on Add button";
 			WebElementDetails userMenuobj = bankingAppAddCustomerWebElementList.get(0);
 			bankingAppAddCustomer.userMenu(userMenuobj).click();
