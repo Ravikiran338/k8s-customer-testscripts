@@ -87,6 +87,7 @@ public class BankingAppDeleteCustomerTestScript {
 			driver = JWebDriver.getInstance().getWebDriver();
 			ResourceBundle resourceBundle = ResourceBundle.getBundle("ApplicationResources");
 			driver.get(resourceBundle.getString("application.url"));
+			Thread.sleep(6000);
 			customMessage = "Click on Add button";
 			WebElementDetails userMenuobj = bankingAppDeleteCustomerWebElementList.get(0);
 			bankingAppDeleteCustomer.userMenu(userMenuobj).click();
