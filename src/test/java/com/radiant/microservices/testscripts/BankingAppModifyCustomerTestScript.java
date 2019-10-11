@@ -85,11 +85,11 @@ public class BankingAppModifyCustomerTestScript {
 			driver = JWebDriver.getInstance().getWebDriver();
 			ResourceBundle resourceBundle = ResourceBundle.getBundle("ApplicationResources");
 			driver.get(resourceBundle.getString("application.url"));
-			Thread.sleep(10000);
+			//Thread.sleep(10000);
 			customMessage = "Click on Add button";
 			WebElementDetails userMenuobj = bankingAppModifyCustomerWebElementList.get(0);
 			bankingAppModifyCustomer.userMenu(userMenuobj).click();
-			Thread.sleep(10000);
+			Thread.sleep(6000);
 			
 			if (bankingAppModifyCustomerWebElementList != null && bankingAppModifyCustomerWebElementList.size() > 0) {
 				if (webElementsData!=null) {
@@ -98,7 +98,7 @@ public class BankingAppModifyCustomerTestScript {
 							List<String> dataSet = webElementDataDetails.getDataSet();
 							if (dataSet != null && dataSet.size() > 0) {
 									Actions act = new Actions(driver);
-									Thread.sleep(15000);
+									Thread.sleep(6000);
 
 									customMessage = "select all records from look-up";
 									WebElementDetails lookupTableObj = bankingAppModifyCustomerWebElementList.get(17);
@@ -109,7 +109,7 @@ public class BankingAppModifyCustomerTestScript {
 									int selctedRecordNo = 0;
 									List<WebElement> rows = lookupTable
 											.findElements(By.cssSelector(rowsObj.getCssSelector()));
-								Thread.sleep(6000);
+								//Thread.sleep(6000);
 									String DomainId = null;
 									JavascriptExecutor js = (JavascriptExecutor) driver;
 									for (int i = 1; i <= rows.size(); i++) {
@@ -235,7 +235,7 @@ public class BankingAppModifyCustomerTestScript {
 									 Streetobj = bankingAppModifyCustomerWebElementList.get(35);
 									bankingAppModifyCustomer.streetTxtbox(Streetobj).click();
 									log.info(" Enter Street ");
-									Thread.sleep(15000);
+									Thread.sleep(10000);
 									}
 						   }	
 						}
