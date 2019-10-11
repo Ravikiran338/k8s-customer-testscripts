@@ -56,13 +56,13 @@ public class TNCTest {
 			     
 				 		 
 			  // Executing the Test script for Banking Modify User Test Script
-			//     bankingAppModifyCustomerTestScript = new BankingAppModifyCustomerTestScript(testSuiteDetails);
-			//     bankingAppModifyCustomerTestScript.modifyBankingCustomer();
+			   bankingAppModifyCustomerTestScript = new BankingAppModifyCustomerTestScript(testSuiteDetails);
+		           bankingAppModifyCustomerTestScript.modifyBankingCustomer();
 			//     
 			     
 		     // Executing the Test script for Banking Modify User Test Script
-		    	bankingAppDeleteCustomerTestScript = new BankingAppDeleteCustomerTestScript(testSuiteDetails);
-		     	bankingAppDeleteCustomerTestScript.deleteBankingCustomer();
+		    	//bankingAppDeleteCustomerTestScript = new BankingAppDeleteCustomerTestScript(testSuiteDetails);
+		     	//bankingAppDeleteCustomerTestScript.deleteBankingCustomer();
 		   	
 		     	
 			  // Executing the Test script for Logout
