@@ -51,8 +51,8 @@ public class TNCTest {
 				 loginTestScript.login();
 			     
 		     //  Executing the Test script for Banking Modify User Test Script
-		     //	 bankingAppAddCustomerTestScript = new BankingAppAddCustomerTestScript(testSuiteDetails);
-		     //	 bankingAppAddCustomerTestScript.addBankingCustomer();
+		     	 bankingAppAddCustomerTestScript = new BankingAppAddCustomerTestScript(testSuiteDetails);
+		     	 bankingAppAddCustomerTestScript.addBankingCustomer();
 			     
 				 		 
 			  // Executing the Test script for Banking Modify User Test Script
