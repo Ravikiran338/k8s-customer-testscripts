@@ -51,14 +51,14 @@ public class TNCTest {
 				 loginTestScript.login();
 			     
 		     //  Executing the Test script for Banking Modify User Test Script
-		     	 bankingAppAddCustomerTestScript = new BankingAppAddCustomerTestScript(testSuiteDetails);
-		     	 bankingAppAddCustomerTestScript.addBankingCustomer();
+		     //	 bankingAppAddCustomerTestScript = new BankingAppAddCustomerTestScript(testSuiteDetails);
+		     //	 bankingAppAddCustomerTestScript.addBankingCustomer();
 			     
 				 		 
 			  // Executing the Test script for Banking Modify User Test Script
-			     bankingAppModifyCustomerTestScript = new BankingAppModifyCustomerTestScript(testSuiteDetails);
-			     bankingAppModifyCustomerTestScript.modifyBankingCustomer();
-			     
+			//     bankingAppModifyCustomerTestScript = new BankingAppModifyCustomerTestScript(testSuiteDetails);
+			//     bankingAppModifyCustomerTestScript.modifyBankingCustomer();
+			//     
 			     
 		     // Executing the Test script for Banking Modify User Test Script
 		    	bankingAppDeleteCustomerTestScript = new BankingAppDeleteCustomerTestScript(testSuiteDetails);
