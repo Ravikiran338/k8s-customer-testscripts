@@ -85,11 +85,11 @@ public class BankingAppModifyCustomerTestScript {
 			driver = JWebDriver.getInstance().getWebDriver();
 			ResourceBundle resourceBundle = ResourceBundle.getBundle("ApplicationResources");
 			driver.get(resourceBundle.getString("application.url"));
-			Thread.sleep(6000);
+			Thread.sleep(10000);
 			customMessage = "Click on Add button";
 			WebElementDetails userMenuobj = bankingAppModifyCustomerWebElementList.get(0);
 			bankingAppModifyCustomer.userMenu(userMenuobj).click();
-			Thread.sleep(6000);
+			Thread.sleep(10000);
 			
 			if (bankingAppModifyCustomerWebElementList != null && bankingAppModifyCustomerWebElementList.size() > 0) {
 				if (webElementsData!=null) {
