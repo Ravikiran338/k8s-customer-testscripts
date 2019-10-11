@@ -87,7 +87,7 @@ public class BankingAppDeleteCustomerTestScript {
 			driver = JWebDriver.getInstance().getWebDriver();
 			ResourceBundle resourceBundle = ResourceBundle.getBundle("ApplicationResources");
 			driver.get(resourceBundle.getString("application.url"));
-			Thread.sleep(6000);
+			//Thread.sleep(6000);
 			customMessage = "Click on Add button";
 			WebElementDetails userMenuobj = bankingAppDeleteCustomerWebElementList.get(0);
 			bankingAppDeleteCustomer.userMenu(userMenuobj).click();
@@ -100,7 +100,7 @@ public class BankingAppDeleteCustomerTestScript {
 							List<String> dataSet = webElementDataDetails.getDataSet();
 							if (dataSet != null && dataSet.size() > 0) {
 									Actions act = new Actions(driver);
-									Thread.sleep(10000);
+									Thread.sleep(6000);
 
 									customMessage = "select all records from look-up";
 									WebElementDetails lookupTableObj = bankingAppDeleteCustomerWebElementList.get(17);
