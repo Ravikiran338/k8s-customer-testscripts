@@ -117,7 +117,7 @@ public class BankingAppModifyCustomerTestScript {
 										  {
 											    js.executeScript("window.scrollBy(0,1000)");
 											    Thread.sleep(3000);
-											    rows.get(i).click();
+											   // rows.get(i).click();
 										  }		
 										  List<WebElement> cols = rows.get(i).findElements(By.cssSelector("td"));
 										  DomainId = cols.get(2).getText();
