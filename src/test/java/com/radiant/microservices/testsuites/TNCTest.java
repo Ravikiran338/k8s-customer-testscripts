@@ -61,8 +61,8 @@ public class TNCTest {
 			     
 			     
 		     // Executing the Test script for Banking Modify User Test Script
-		     //	bankingAppDeleteCustomerTestScript = new BankingAppDeleteCustomerTestScript(testSuiteDetails);
-		     //	bankingAppDeleteCustomerTestScript.deleteBankingCustomer();
+		    	bankingAppDeleteCustomerTestScript = new BankingAppDeleteCustomerTestScript(testSuiteDetails);
+		     	bankingAppDeleteCustomerTestScript.deleteBankingCustomer();
 		   	
 		     	
 			  // Executing the Test script for Logout
