@@ -235,7 +235,7 @@ public class BankingAppModifyCustomerTestScript {
 									 Streetobj = bankingAppModifyCustomerWebElementList.get(35);
 									bankingAppModifyCustomer.streetTxtbox(Streetobj).click();
 									log.info(" Enter Street ");
-									Thread.sleep(10000);
+									Thread.sleep(12000);
 									}
 						   }	
 						}
