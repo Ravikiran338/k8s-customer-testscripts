@@ -100,7 +100,7 @@ public class BankingAppDeleteCustomerTestScript {
 							List<String> dataSet = webElementDataDetails.getDataSet();
 							if (dataSet != null && dataSet.size() > 0) {
 									Actions act = new Actions(driver);
-									Thread.sleep(6000);
+									Thread.sleep(10000);
 
 									customMessage = "select all records from look-up";
 									WebElementDetails lookupTableObj = bankingAppDeleteCustomerWebElementList.get(17);
