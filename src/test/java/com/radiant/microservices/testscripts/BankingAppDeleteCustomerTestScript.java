@@ -116,7 +116,8 @@ public class BankingAppDeleteCustomerTestScript {
 										  if ((i % 10) == 0)
 										  {
 											    js.executeScript("window.scrollBy(0,1000)");
-											    rows.get(i).click();
+											    Thread.sleep(1000);
+											    //rows.get(i).click();
 										  }		
 										  List<WebElement> cols = rows.get(i).findElements(By.cssSelector("td"));
 										  DomainId = cols.get(2).getText();
