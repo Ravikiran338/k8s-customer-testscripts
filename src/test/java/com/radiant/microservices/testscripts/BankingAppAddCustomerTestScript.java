@@ -113,7 +113,7 @@ public class BankingAppAddCustomerTestScript {
 									customMessage = "Click on Add button";
 									WebElementDetails addBtnobj = bankingAppAddCustomerWebElementList.get(1);
 									bankingAppAddCustomer.addUserbtn(addBtnobj).click();
-									Thread.sleep(20000);
+									Thread.sleep(14000);
 									
 									customMessage = "Create butnm";
 									WebElementDetails CreateButnobj = bankingAppAddCustomerWebElementList.get(15);
@@ -219,7 +219,7 @@ public class BankingAppAddCustomerTestScript {
 									//
 									log.info(" Enter Street ");
 									
-									Thread.sleep(20000);
+									Thread.sleep(14000);
 									}
 						   }	
 						}
