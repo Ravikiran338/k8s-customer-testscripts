@@ -66,8 +66,8 @@ public class TNCTest {
 		   	
 		     	
 			  // Executing the Test script for Logout
-				 logoutTestScript = new LogoutTestScript(testSuiteDetails);
-				 logoutTestScript.logout();
+				 //logoutTestScript = new LogoutTestScript(testSuiteDetails);
+				 //logoutTestScript.logout();
 				 
 				 if (!testSuiteDetails.isTestStatusSuccess()) {
 						throw new Exception("Test case Failed");
