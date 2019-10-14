@@ -109,7 +109,7 @@ public class BankingAppModifyCustomerTestScript {
 									int selctedRecordNo = 0;
 									List<WebElement> rows = lookupTable
 											.findElements(By.cssSelector(rowsObj.getCssSelector()));
-								//Thread.sleep(6000);
+								       Thread.sleep(6000);
 									String DomainId = null;
 									JavascriptExecutor js = (JavascriptExecutor) driver;
 									for (int i = 1; i <= rows.size(); i++) {
